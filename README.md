@@ -1,4 +1,4 @@
-# website_meecantilism_dot_com
+# website_mercantilism_dot_com
 dummy site created for dummy purposes
 
 # mainfile.html itself have css and script in it.

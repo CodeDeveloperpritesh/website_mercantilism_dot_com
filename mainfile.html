@@ -1,0 +1,736 @@
+<!-- 
+# Code developed by: "Pritesh Alshetty"
+# Date: "20/10/2021"
+# code for testting purpose only
+# all images used in site are of "mercantilism.in"
+# COPYRIGHT © 2021 MERCANTILISM SERVICES LLP - ALL RIGHTS RESERVED
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercantilism Services LLP</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@540&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="cssfile.css"> -->
+  <!-- body and navbar  -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .fontbold {
+      font-weight: bolder !important;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .color-theme {
+      color: rgb(196, 133, 118);
+    }
+
+
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      color: rgb(181, 177, 177);
+      background-color: rgb(63, 63, 63);
+      position: relative;
+      /* height: 22%; */
+    }
+
+    /* navbar logo */
+
+    .logo {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.2rem;
+      margin: 0.4em 0.8em;
+      padding-right: 2em;
+    }
+
+    .navbar ul {
+      display: flex;
+      padding-left: 1em;
+    }
+
+    .navbar ul li {
+      list-style: none;
+      font-size: 0.9rem;
+      margin: 2px 5px;
+    }
+
+    .navbar ul li a {
+
+      color: rgb(181, 177, 177);
+      text-decoration: none;
+      display: block;
+      border-radius: 5px;
+      margin: 0em 2em;
+
+
+    }
+
+    .navbar::before {
+      content: "";
+      background-color: rgb(63, 63, 63);
+      position: absolute;
+      height: 12%;
+      z-index: -1;
+      opacity: 1;
+    }
+
+    .navbar ul li a:hover {
+      color: burlywood;
+
+    }
+
+    .svg ul li:hover {
+      color: burlywood;
+
+    }
+
+    .svg {
+      position: absolute;
+      top: 1em;
+      right: 0.8em;
+    }
+  </style>
+  <!-- section1 -->
+  <style>
+    /* section 1 css start here */
+    /* .section1::before{
+  content: "";
+  background: url(/img1.jpg) no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  z-index: -1;
+  opacity: 1;
+} */
+    .section1 {
+      /* background: url(/img1.jpg) no-repeat center center/cover; */
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .section1 img {
+      width: 100vw;
+    }
+
+    /* section 2 here: */
+    /* .section2::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    z-index: -1;
+    opacity: 1;
+  } */
+  </style>
+  <!-- section2 -->
+  <style>
+    .section2 {
+      background-color: rgb(196, 133, 118);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+
+    }
+
+    .h-primary {
+      padding-top: 0.5rem;
+      margin: 5px;
+      display: inline-block;
+      font-size: 4rem;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    .h-secondary {
+
+      padding: 1rem;
+      display: inline-block;
+      font-size: 1rem;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      border-radius: 2rem;
+      font-size: 1rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 1.2rem 2.5rem;
+      margin-top: 0.2rem;
+      margin-bottom: 4rem;
+      background-color: rgb(196, 133, 118);
+      border: 2px solid white;
+      color: white;
+
+    }
+
+    .btn:hover {
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+  </style>
+  <!-- section3 -->
+  <style>
+    .section3 {
+      display: flex;
+    }
+
+    .section3 .box1 img {
+      width: 50vw;
+      height: 68vh;
+    }
+
+    .section3 .box2 {
+      /* border:1px solid firebrick; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+    }
+
+    .section3 .box2 .h-primary {
+      padding-top: 0;
+      padding-bottom: 2rem;
+
+
+    }
+
+    .section3 p {
+      font-size: 1.5rem;
+      margin: 0.5em 3em;
+
+    }
+  </style>
+  <!-- section4  -->
+  <style>
+    .section4 {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .section4 .box1 {
+      color: rgb(95, 95, 95);
+      font-size: 2rem;
+      padding: 2rem;
+    }
+
+    .section4 .box2 {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+
+    .section4 .box3 {
+      font-size: 1rem;
+      padding: 1rem 10rem;
+      color: rgb(61, 61, 61);
+      text-align: center;
+    }
+  </style>
+  <!-- section5  -->
+  <style>
+    .section5 {
+      display: flex;
+      align-items: center;
+    }
+
+    .subheading {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      margin-top: 1rem;
+    }
+
+    .subpara {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      margin: 0.2rem 2rem;
+      color: rgb(61, 61, 61);
+    }
+  </style>
+  <!-- section6 -->
+  <style>
+    .section6 .p1 {
+      font-family: 'Exo';
+      padding-top: 2rem;
+      margin: 1rem;
+      color: rgb(61, 61, 61);
+      font-size: 1.8rem;
+    }
+
+    .section6 .p2 {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  </style>
+  <!-- section7 -->
+  <style>
+    .section7 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      font-family: "Exo";
+      color: rgb(63, 63, 63);
+    }
+
+    .section7 p {
+      padding-top: 4.5rem;
+      padding-bottom: 2rem;
+    }
+
+    .section7 div a {
+      text-decoration: none;
+    }
+
+    .basemargin {
+
+      margin: 2rem 1rem;
+
+
+    }
+  </style>
+
+
+
+  <!-- faq section -->
+  <style>
+    .faq-heading {
+      border-bottom: .777;
+      padding: 20px 60px;
+    }
+
+    .faq-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+
+    .hr-line {
+      width: 60%;
+      margin: auto;
+    }
+
+    /* Style the buttons that are used to open and close the faq-page body */
+    .faq-page {
+
+      color: rgb(63, 63, 63);
+      cursor: pointer;
+      padding: 1.5rem 1rem;
+      width: 60%;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      margin: auto;
+      font-weight: 100;
+
+    }
+
+    .faq-body {
+      margin: 1rem auto;
+      /* text-align: center; */
+      width: 60%;
+      padding: auto;
+
+
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .faq-page:hover {
+      background-color: #FFFFFF;
+    }
+
+    /* Style the faq-page panel. Note: hidden by default */
+    .faq-body {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+
+    .faq-page:after {
+      content: '\02795';
+      /* Unicode character for "plus" sign (+) */
+      font-size: 13px;
+      color: .777;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2796";
+      /* Unicode character for "minus" sign (-) */
+    }
+  </style>
+
+  <!-- footer -->
+  <style>
+    footer {
+      padding-top: 2rem;
+      margin-top: 8rem;
+      display: flex;
+      align-items: flex-start;
+      background-color: rgb(61, 61, 61);
+      color: rgb(181, 177, 177);
+    }
+
+    footer .box1 {
+      font-size: 0.8rem;
+      padding: 2rem 0rem;
+      margin: 2rem;
+    }
+
+    footer .box2 {
+      position: relative;
+      left: 40rem;
+      top: 3rem;
+      /* border: 2px solid red; */
+    }
+
+    footer .box2 a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      Mercantilism Services LLP
+    </div>
+    <ul>
+      <li class="item"><a href=".home">-HOME</a></li>
+      <li class="item"><a href=".contact">CONTACT US</a></li>
+      <li class="item"><a href=".home">BLOG</a></li>
+    </ul>
+    <div class="svg">
+      <ul>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="UtilitiesMenuIcon"
+            data-aclass="CART_ICON_RENDER" data-typography="NavAlpha">
+            <path fill-rule="evenodd"
+              d="M17.39 17.381c-.713 0-1.305.593-1.305 1.31 0 .715.592 1.31 1.305 1.31s1.305-.595 1.305-1.31c0-.717-.592-1.31-1.305-1.31m-9.133 0c-.713 0-1.305.593-1.305 1.31 0 .715.592 1.31 1.305 1.31s1.305-.595 1.305-1.31c0-.717-.592-1.31-1.305-1.31m9.765-2.061c.357 0 .673.376.673.734 0 .359-.295.735-.652.735H7.605a.659.659 0 0 1-.653-.655c0-.219.22-.654.409-1.006.138-.257.179-.553.118-.839L5.77 5.309H4.652A.658.658 0 0 1 4 4.655C4 4.297 4.296 4 4.652 4h1.774c.683 0 .704.819.805 1.309h12.116c.357 0 .653.297.653.655l-1.358 4.917a3.167 3.167 0 0 1-2.509 2.095l-7.356 1.132s.172.257.172.565c0 .308-.305.647-.305.647h9.378zM7.531 6.809l1.139 5.722 7.292-1.02a1.568 1.568 0 0 0 1.253-1.124l1.07-3.679-10.754.101z">
+            </path>
+          </svg>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="UtilitiesMenuIcon"
+            data-typography="NavAlpha">
+            <path fill-rule="evenodd"
+              d="M5.643 19.241a.782.782 0 0 1-.634-.889c.317-2.142 1.62-4.188 3.525-5.244l.459-.254-.39-.352a4.89 4.89 0 0 1-.797-6.327 4.747 4.747 0 0 1 2.752-2.003 4.894 4.894 0 0 1 6.092 5.72c-.211 1.042-.802 1.97-1.59 2.683l-.308.28.459.253c1.876 1.04 3.185 3.131 3.53 5.26a.765.765 0 0 1-.742.883c-.367.005-.697-.25-.753-.613-.52-3.384-4.067-6.087-7.702-4.324-1.628.79-2.714 2.511-3.014 4.313a.76.76 0 0 1-.887.614zm2.873-10.36a3.36 3.36 0 0 0 3.356 3.355A3.36 3.36 0 0 0 15.23 8.88a3.361 3.361 0 0 0-3.358-3.357A3.36 3.36 0 0 0 8.516 8.88z">
+
+            </path>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section1">
+    <!-- this is section one -->
+    <img src="./img1.jpg" alt="img not found">
+  </section>
+
+
+  <section class="section2">
+    <!-- this is section two -->
+    <div class="h-primary center">
+      A path of Learning
+    </div>
+    <div class="h-secondary">
+      Guiding your next step!
+    </div>
+    <a href=".">
+      <button class="btn">
+        BOOK ONLINE
+      </button>
+    </a>
+  </section>
+
+  <section class="section3">
+    <div class="box1">
+      <img src="./img2.jpg" alt="">
+    </div>
+    <div class="box2">
+      <div class="h-primary center color-theme">Get Ready</div>
+      <p class="center">We will be here for you every step of the way. Our consultants will work with you and your
+        family to plan the next step on your educational as well as your financial journey.</p>
+    </div>
+
+  </section>
+
+
+  <section class="section4">
+    <div class="box1">SERVICES</div>
+    <div class="box2 fontbold">About Us</div>
+    <div class="box3">We, at Mercantilism Services LLP, provide consulting services related to Education (particularly
+      Science and especially, Mathematics and Scientific Research) and financial planning including (but not limited to)
+      Investments and Portfolio Management.</div>
+  </section>
+
+
+  <section class="section5">
+    <div class="box1 center">
+      <div class="subheading fontbold">
+        Hourly Consultations
+      </div>
+      <div class="subpara">
+        Currently, we are not taking any formal consultation bookings. However, for an informal talk, you can reach out
+        to us via telegram @dummytelegram and via email at
+        <a href=".">
+          dummyemail@gmail.com
+        </a>
+      </div>
+
+    </div>
+    <div class="box2 center">
+      <div class="subheading fontbold">
+        Complete Assured Services
+
+      </div>
+      <div class="subpara">
+        We work in a way that our clients do not feel cheated. We work in every possible way to complete the job taken
+        at hand with all the dedication and to the full satisfaction of the clients.
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section6">
+    <div class="p1 center fontbold">
+      FREQUENTLY ASKED QUESTIONS
+    </div>
+    <div class="p2 center">
+      Please contact us if you cannot find an answer to your question.
+    </div>
+
+  </section>
+
+
+  <section class="faq-container">
+    <div class="faq-one">
+      <!-- faq question -->
+      <h1 class="faq-page">What does an educational consultant do ?</h1>
+
+
+      <!-- faq answer -->
+      <div class="faq-body">
+        <p>An educational consultant, also called a higher education consultant, assists students and their parents in
+          planning for college and financial aid.</p>
+      </div>
+    </div>
+    <hr class="hr-line">
+
+    <div class="faq-two">
+
+      <!-- faq question -->
+      <h1 class="faq-page">When should we meet an educational consultant?</h1>
+
+      <!-- faq answer -->
+
+      <div class="faq-body">
+        <p>While we can step in to help a family at any point in their planning journey, the best time to contact an
+          educational consultant is after the student has qualified for pre-college/junior college/11-th standard.</p>
+      </div>
+    </div>
+    <hr class="hr-line">
+
+
+    <div class="faq-three">
+
+      <!-- faq question -->
+      <h1 class="faq-page">Can you gaurantee that my child will get into their first choice of school?</h1>
+
+      <!-- faq answer -->
+      <div class="faq-body">
+        <p>No one can ethically offer this guarantee. However, we can work with your child to shape their activities and
+          application to give them their very best chance.!</p>
+      </div>
+    </div>
+    <hr class="hr-line">
+
+
+    <div class="faq-four">
+
+      <!-- faq question -->
+      <h1 class="faq-page">What does a financial consultant do?</h1>
+
+      <!-- faq answer -->
+      <div class="faq-body">
+        <p>A financial consultant will help you manage your finances in a better way and to grow them as per the market
+          condition, your goals, and your risk appetite. Along with managing your finances, our consultants will help
+          you learn the concepts of finance and financial planning.</p>
+      </div>
+    </div>
+    <hr class="hr-line">
+
+    <div class="faq-five">
+      <h1 class="faq-page">When should we meet financial consultants?</h1>
+      <div class="faq-body">
+        <p>
+          Right from the point, you start earning any money, you need to manage your finances in an organized manner.
+          For this, you need some financial consultation and that is the time you might want to meet a financial
+          consultant.
+        </p>
+      </div>
+    </div>
+    <hr class="hr-line">
+
+  </section>
+
+
+
+
+
+  <section class="section7">
+
+
+    <p class="center fontbold">CONNECT WITH US</p>
+    <div>
+      <a href="https://www.facebook.com" class="basemargin">
+
+        <!-- facebook svg --><svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40" data-ux="IconSocial"
+          class="x-el x-el-svg c1-1 c1-2 c1-bn c1-1f c1-4d c1-d6 c1-d7 c1-4t c1-b c1-c c1-d8 c1-d9 c1-d c1-da c1-db c1-dc c1-dd c1-z c1-aw c1-10 c1-ax c1-e c1-f c1-g">
+          <g>
+            <path
+              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.093 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.563V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+              fill="#1877F2"></path>
+            <path
+              d="M15.893 14.89l.443-2.89h-2.773v-1.875c0-.79.387-1.563 1.63-1.563h1.26v-2.46s-1.144-.196-2.238-.196c-2.284 0-3.777 1.385-3.777 3.89V12h-2.54v2.89h2.54v6.988a10.04 10.04 0 003.124 0v-6.987h2.33z"
+              fill="#fff"></path>
+          </g>
+        </svg>
+      </a>
+      <a href="https://www.twitter.com" class="basemargin">
+
+        <!-- twitter svg --><svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40" data-ux="IconSocial"
+          class="x-el x-el-svg c1-1 c1-2 c1-bn c1-1f c1-4d c1-d6 c1-d7 c1-4t c1-b c1-c c1-d8 c1-d9 c1-d c1-da c1-db c1-dc c1-dd c1-z c1-aw c1-10 c1-ax c1-e c1-f c1-g">
+          <g>
+            <path d="M12 2c5.523 0 10 4.476 10 10 0 5.523-4.477 10-10 10-5.522 0-10-4.477-10-10C2 6.478 6.478 2 12 2z"
+              fill="#1DA1F2"></path>
+            <path
+              d="M16.975 9.755c.481-.345.9-.779 1.23-1.271a4.936 4.936 0 01-1.414.387 2.469 2.469 0 001.083-1.362 4.986 4.986 0 01-1.564.597 2.462 2.462 0 00-4.196 2.245A6.987 6.987 0 017.039 7.78a2.461 2.461 0 00.763 3.286 2.457 2.457 0 01-1.116-.309v.031c0 1.193.849 2.187 1.975 2.414a2.464 2.464 0 01-.649.085c-.16 0-.312-.013-.463-.042a2.466 2.466 0 002.3 1.71 4.94 4.94 0 01-3.645 1.018 6.968 6.968 0 003.773 1.107c4.53 0 7.006-3.75 7.006-7.005l-.008-.319z"
+              fill="#fff"></path>
+          </g>
+        </svg>
+      </a>
+      <a href="https://www.youtube" class="basemargin">
+        <!-- youtube svg --><svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40" data-ux="IconSocial"
+          class="x-el x-el-svg c1-1 c1-2 c1-bn c1-1f c1-4d c1-d6 c1-d7 c1-4t c1-b c1-c c1-d8 c1-d9 c1-d c1-da c1-db c1-dc c1-dd c1-z c1-aw c1-10 c1-ax c1-e c1-f c1-g">
+          <g>
+            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10A10 10 0 0012 2z" fill="#FF0000"></path>
+            <path fill-rule="evenodd"
+              d="M17.607 14.302s.066-.931.066-1.866l.003-.88c0-.93-.069-1.865-.069-1.865a2.363 2.363 0 00-.436-1.146 1.702 1.702 0 00-1.16-.52c-1.615-.116-4.025-.149-4.025-.149s-2.422.033-4.037.15c-.436.012-.85.193-1.156.505-.335.349-.364 1.153-.364 1.153s-.033.942-.033 1.876v.884c0 .93.033 1.865.033 1.865.033.413.177.809.418 1.146.344.31.788.484 1.251.49.924.088 3.913.117 3.913.117s2.418-.004 4.033-.12c.433-.004.847-.18 1.152-.488.242-.338.384-.737.411-1.152zm-3.68-2.422l-3.116 1.614-.004-3.24 3.12 1.626z"
+              fill="#fff"></path>
+          </g>
+        </svg>
+      </a>
+
+    </div>
+  </section>
+  <footer>
+    <div class="box1">
+      COPYRIGHT © 2021 MERCANTILISM SERVICES LLP - ALL RIGHTS RESERVED
+    </div>
+    <div class="box2">
+      <a href="https.www.facebook.com">
+        <svg viewBox="0 0 24 24" fill="#FFFFFF" width="40px" height="40px" data-ux="IconSocial"
+          class="x-el x-el-svg c1-1 c1-2 c1-6k c1-1f c1-4d c1-46 c1-45 c1-47 c1-44 c1-b c1-c c1-d c1-e c1-f c1-g">
+          <path fill-rule="evenodd"
+            d="M22 12.061C22 6.505 17.523 2 12 2S2 6.505 2 12.061c0 5.022 3.657 9.184 8.438 9.939v-7.03h-2.54v-2.91h2.54V9.845c0-2.522 1.492-3.915 3.777-3.915 1.094 0 2.238.197 2.238.197v2.476h-1.26c-1.243 0-1.63.775-1.63 1.57v1.888h2.773l-.443 2.908h-2.33V22c4.78-.755 8.437-4.917 8.437-9.939z">
+          </path>
+        </svg>
+      </a>
+      <a href="https://twitter.com">
+        <svg viewBox="0 0 24 24" fill="#FFFFFF" width="40px" height="40px" data-ux="IconSocial"
+          class="x-el x-el-svg c1-1 c1-2 c1-6k c1-1f c1-4d c1-46 c1-45 c1-47 c1-44 c1-b c1-c c1-d c1-e c1-f c1-g">
+          <path
+            d="M22 12c0-5.524-4.477-10-10-10C6.478 2 2 6.478 2 12c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10zm-3.795-3.516c-.33.492-.749.926-1.23 1.271l.008.319c0 3.255-2.477 7.005-7.006 7.005a6.968 6.968 0 01-3.773-1.107 4.94 4.94 0 003.645-1.019 2.466 2.466 0 01-2.3-1.71 2.464 2.464 0 001.112-.042 2.465 2.465 0 01-1.975-2.413v-.032c.333.185.711.295 1.115.309a2.461 2.461 0 01-.762-3.286 6.987 6.987 0 005.075 2.572 2.462 2.462 0 014.196-2.245 4.986 4.986 0 001.564-.597A2.469 2.469 0 0116.79 8.87a4.936 4.936 0 001.414-.387z">
+          </path>
+        </svg>
+      </a>
+      <a href="https://youtube.com">
+        <svg viewBox="0 0 24 24" fill="#FFFFFF" width="40px" height="40px" data-ux="IconSocial"
+          class="x-el x-el-svg c1-1 c1-2 c1-6k c1-1f c1-4d c1-46 c1-45 c1-47 c1-44 c1-b c1-c c1-d c1-e c1-f c1-g">
+          <g transform="translate(2 2)">
+            <polygon points="8.811 11.495 11.927 9.88 8.807 8.255"></polygon>
+            <path
+              d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0 0 10 0zm5.673 10.436c0 .935-.066 1.866-.066 1.866-.027.415-.17.814-.41 1.153-.306.308-.72.483-1.153.487-1.615.116-4.033.12-4.033.12s-2.99-.03-3.913-.117a1.91 1.91 0 0 1-1.25-.49 2.273 2.273 0 0 1-.419-1.146s-.033-.934-.033-1.865V9.56c0-.935.033-1.876.033-1.876s.03-.804.364-1.153c.305-.312.72-.493 1.156-.506 1.615-.116 4.036-.149 4.036-.149s2.411.033 4.026.15c.44.016.855.203 1.16.52.244.336.394.731.436 1.145 0 0 .07.934.07 1.865l-.004.88z">
+            </path>
+          </g>
+        </svg>
+      </a>
+
+    </div>
+  </footer>
+  <div style="font-size: 0.8rem;">
+    dummy site created for testing purpose!!
+    created by : "Pritesh Alshetty" date :"20/10/2021"
+  </div>
+
+
+  <script>
+    var faq = document.getElementsByClassName("faq-page");
+    var i;
+
+    for (i = 0; i < faq.length; i++) {
+      faq[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+          body.style.display = "none";
+        } else {
+          body.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
